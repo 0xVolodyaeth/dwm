@@ -1,9 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T08:43:27.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0" etag="J3vDiPvb5AOSIsg6KX37" version="22.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T13:38:45.467Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0" etag="PqJ3HJRuOxILuS4G5xzF" version="22.0.7" type="github">
   <diagram name="Page-1" id="DUOFCDKd72A8hqyFqvJV">
-    <mxGraphModel dx="1314" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1890" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LAr9Yy03FMvhhjaC2IVz-2" target="LAr9Yy03FMvhhjaC2IVz-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-86" value="5.Verify OTP hash" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAr9Yy03FMvhhjaC2IVz-84">
+          <mxGeometry x="-0.1227" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-2" value="2FA adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-60" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="400" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LAr9Yy03FMvhhjaC2IVz-60" source="LAr9Yy03FMvhhjaC2IVz-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LAr9Yy03FMvhhjaC2IVz-60" source="LAr9Yy03FMvhhjaC2IVz-5" target="LAr9Yy03FMvhhjaC2IVz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-5" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LAr9Yy03FMvhhjaC2IVz-60">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-6" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LAr9Yy03FMvhhjaC2IVz-60">
+          <mxGeometry x="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-58" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LAr9Yy03FMvhhjaC2IVz-60">
+          <mxGeometry y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="LAr9Yy03FMvhhjaC2IVz-60" source="LAr9Yy03FMvhhjaC2IVz-59" target="LAr9Yy03FMvhhjaC2IVz-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LAr9Yy03FMvhhjaC2IVz-60" source="LAr9Yy03FMvhhjaC2IVz-59" target="LAr9Yy03FMvhhjaC2IVz-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-59" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LAr9Yy03FMvhhjaC2IVz-60">
+          <mxGeometry x="120" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-65" value="Chainlink" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="LAr9Yy03FMvhhjaC2IVz-60">
+          <mxGeometry x="50" y="80" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAr9Yy03FMvhhjaC2IVz-6" target="LAr9Yy03FMvhhjaC2IVz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-69" value="4. Verify OTP hash" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAr9Yy03FMvhhjaC2IVz-70" target="LAr9Yy03FMvhhjaC2IVz-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-72" value="3. Verify OTP hash" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAr9Yy03FMvhhjaC2IVz-71">
+          <mxGeometry x="-0.1389" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-70" value="&lt;div&gt;Oracle&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-73" value="&lt;div&gt;OTP Service&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-77" value="Frontend" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="349.6" as="sourcePoint" />
+            <mxPoint x="79.96000000000004" y="349.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-79" value="&lt;div&gt;1. Recover wallet&lt;/div&gt;&lt;div&gt;with OTP hash&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAr9Yy03FMvhhjaC2IVz-78">
+          <mxGeometry x="-0.3702" y="3" relative="1" as="geometry">
+            <mxPoint x="23" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-87" value="&lt;div&gt;Recovery service&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAr9Yy03FMvhhjaC2IVz-59" target="LAr9Yy03FMvhhjaC2IVz-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="200" />
+              <mxPoint x="640" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-89" value="&lt;div&gt;6. Allow owner transition&lt;/div&gt;&lt;div&gt;for wallet&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAr9Yy03FMvhhjaC2IVz-88">
+          <mxGeometry x="-0.2453" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-75" value="Wallet Recovery Plugin" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-74" value="&lt;div&gt;ZeroDev&lt;/div&gt;&lt;div&gt;Smart Wallet&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="175" as="sourcePoint" />
+            <mxPoint x="570" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-91" value="&lt;div&gt;2. Verify OTP&lt;/div&gt;&lt;div&gt;hash&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LAr9Yy03FMvhhjaC2IVz-90">
+          <mxGeometry x="-0.3258" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-92" value="&lt;div&gt;ZeroDev&lt;/div&gt;&lt;div&gt;Smart Wallet&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
