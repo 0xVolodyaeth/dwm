@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T13:45:54.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0" etag="GS6fUmVuXa8CZ4HrUagS" version="22.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T13:56:30.126Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0" etag="HXRsfN6oUydwlzR04jVM" version="22.0.7" type="github">
   <diagram name="Page-1" id="DUOFCDKd72A8hqyFqvJV">
-    <mxGraphModel dx="2583" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2379" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,8 +161,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LAr9Yy03FMvhhjaC2IVz-92" value="&lt;div&gt;ZeroDev&lt;/div&gt;&lt;div&gt;Smart Wallet&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-92" value="&lt;div&gt;Wallet Instance&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAr9Yy03FMvhhjaC2IVz-102" value="&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;Wallet Plugin - 1 month&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;Oracle and External Adapter - 2 months&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;OTP Service and Recovery Service - 2 months&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;Frontend Integration - ...&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="370" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
